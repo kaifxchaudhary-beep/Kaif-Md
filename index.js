@@ -263,7 +263,7 @@ function processAndCleanMessage(originalMessage) {
  * Handle !ping command
  */
 async function handlePingCommand(sock, from) {
-    await sock.sendMessage(from, { text: "Love You😘" });
+    await sock.sendMessage(from, { text: "KAIF-MD Working Fast" });
     console.log(`Ping command executed for ${from}`);
 }
 
